@@ -1,0 +1,13 @@
+data/
+data_dimasika/
+SIBR/
+*.zip
+*.deb
+*.out
+*.pt
+*.pth
+__pycache__
+lerf_ovs
+ckpts
+DinoSplat/output
+DinoSplat/output_dino

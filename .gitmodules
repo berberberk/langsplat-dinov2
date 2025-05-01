@@ -1,0 +1,12 @@
+[submodule "LangSplat"]
+	path = LangSplat
+	url = https://github.com/V1adych/LangSplat.git
+[submodule "nerfstudio"]
+	path = nerfstudio
+	url = https://github.com/nerfstudio-project/nerfstudio.git
+[submodule "gaussian-splatting"]
+	path = gaussian-splatting
+	url = https://github.com/graphdeco-inria/gaussian-splatting.git
+[submodule "Talk2DINO"]
+	path = Talk2DINO
+	url = https://github.com/lorebianchi98/Talk2DINO.git
