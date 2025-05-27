@@ -16,9 +16,6 @@ The aim of the research project was to optimize existing SoTA solutions in the f
 * *Qin et al. 2023 - LangSplat: 3D Language Gaussian Splatting (CVPR2024 Highlight)* [arxiv.org/abs/2312.16084]
 * *Barsellotti et al. 2024 - Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation* [arxiv.org/abs/2411.19331]
 ![image](https://github.com/user-attachments/assets/76158e54-c835-494d-9062-5cc7edb6e5c6)
-![image](https://github.com/user-attachments/assets/45e7ea0d-3f10-4aaf-a89c-77435eef549b)
-
-###
 
 **The results we have achieved in the research process are listed below:**
 
@@ -33,5 +30,7 @@ The use of the approaches used in Talk2DINO's work, namely the mapping of DINO f
 **🔵 Dimensionality Reduction**
 
 In addition, we computationally optimized dimensionality reduction when implementing semantic embeddings in splatting, experimenting with autoencoder training and using PCA. Using such a simple approach as PCA made it possible to reduce the time of the last stage of embedding processing by ~10 times at the cost of less confident and dense semantics coverage. However, the rendering showed that this level is sufficient to solve a wide range of tasks in the field.
+
+![image](https://github.com/user-attachments/assets/45e7ea0d-3f10-4aaf-a89c-77435eef549b)
 
 ![image](https://github.com/user-attachments/assets/a7a18110-310a-4be1-9dbe-4326bd32c6d4)
