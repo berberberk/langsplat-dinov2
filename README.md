@@ -10,6 +10,7 @@
 **Semantic 3D Gaussian Splatting** is an algorithm for extracting semantic features in a constructed 3D scene for open-vocabulary segmentation or localization of 3D objects in the scene.
 
 The aim of the research project was to optimize existing SoTA solutions in the field of semantic splatting. We used the features of the DINOv2 model, trained to make high-quality embeddings of images to add semantics to gaussians.
+
 **Related Works:** 
 
 * *Qin et al. 2023 - LangSplat: 3D Language Gaussian Splatting (CVPR2024 Highlight)* [arxiv.org/abs/2312.16084]
@@ -23,7 +24,7 @@ The aim of the research project was to optimize existing SoTA solutions in the f
 
 **🔴 Semantic Mapping**
 
-This made it possible to achieve a better semantic reconstruction of the scene compared to the approach used in the LangSplat research paper, the authors of which relied on the SAM segmentation model. We have replaced the most computationally demanding stage of the LangSplat pipeline with DINOv2 features, reducing the preprocessing time of each frame by more than 50 times.
+The implementation of DINOv2 features made it possible to achieve a better semantic reconstruction of the scene compared to the approach used in the LangSplat research paper, the authors of which relied on the SAM segmentation model. We have replaced the most computationally demanding stage of the LangSplat pipeline with DINOv2 features, reducing the preprocessing time of each frame by more than 50 times.
 
 **🟢 Natural Language Querying**
 
